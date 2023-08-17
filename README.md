@@ -1,2 +1,2 @@
 # diadoc
-Diadoc-landingPage - https://github.com/volodymyr-hotsak/diadoc
+Diadoc-landingPage - https://volodymyr-hotsak.github.io/diadoc/
