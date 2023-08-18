@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -17,7 +18,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__inner">
+        <div data-aos="zoom-in" class="header__inner">
           <nav class="nav">
             <button class="menu-btn">
               <span></span>
@@ -51,7 +52,7 @@
         </div>
 
         <div class="header__info">
-          <div class="header_text">
+          <div data-aos="fade-right" class="header_text">
             <img class="header__info-img" src="images/span.png" alt="" />
             <h1>Диадок</h1>
             <h3>Электронный документооборот с контрагентами</h3>
@@ -63,7 +64,7 @@
               Подключись
             </button>
           </div>
-          <div class="header_phone">
+          <div data-aos="fade-left" class="header_phone">
             <img src="images/header__phone.jpg" alt="" />
           </div>
         </div>
@@ -364,6 +365,10 @@
         </div>
       </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
